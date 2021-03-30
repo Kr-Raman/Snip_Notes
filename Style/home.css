@@ -1,79 +1,143 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  width: 90%;
-  margin: auto;
-  
-}
-
-.header {
-    margin-top: 10px;
-  height: 70px;
-  display: flex;
-  border-radius: 10px;
-      justify-content: space-around;
-      align-content: center;
-      background-color: rgb(134, 132, 132);
-      color: whitesmoke;
-}
-.logo {
-    
-  
-}
-li{
-    text-decoration: none;
-    list-style:none;
-   
-}
-
-.links
+*
 {
-    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Properties for the Left side bar */
+.side_bar{
     display: flex;
+    
+   
+
+}
+.side_bar_initials
+{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(31,31,31);
+    color: rgb(255, 255, 255);
+    
+    
+}
+.profile
+{
+    display: flex;
+    margin: auto;
     align-content: center;
-}
-.link1,.link2,.link3,.link4
-{
     
-    padding:0px 60px 0px 60px;
+
+
+}
+.pic
+{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(175, 238, 117);
+    margin: 3px;
+    border-radius: 100px;
+
+}
+.name
+{
+    padding: 5px;
+    margin: 3px;
+}
+.refresh{
+
+    height: 15px;
+  align-content:flex-end;
+  margin-top: 10px;
+  margin-left: 100px ;
+    
+    /* background-color: rgb(31,31,31); */
+    filter: invert(100%);
+}
+.minimize
+{
+    height: 15px;
+  align-content:flex-end;
+  margin: auto;
+    
+    /* background-color: white; */
+    filter: invert(100%);
+}
+
+.lower_side_bar
+{
+    height: fit-content;
+    
+
+}
+.Quiky
+{
+    /* position: absolute; */
+    margin:20px 20px   ;
+}
+a
+{
+    color: white;
     text-decoration: none;
+    margin: 5px;
+
+}
+
+
+ul.main_links li
+{
+    margin-left:20px;
+    margin-top: 10px;
     list-style: none;
-    font-weight: 500;
-    font-size: large;
-    color: whitesmoke;
 }
-.additional
+ul.main_links li img
 {
-    font-weight: 500;
+    height: 20px;
+    filter: invert(100%);
+    margin-top: 5px;
+    margin-right:5px ;
+       
 }
 
-.content
+.middle_bar
 {
+    
+    height: fit-content;
+    width: auto;
+    background-color: rgb(40,40,40);
+    color: white;
+    
+}
+
+.corner{
+    border-radius: 2rem;
+    width: 300px;
+    height:30px;  
+}
+
+
+
+input.corner
+{
+    height:30px;
+    
+}
+
+.display_site
+{
+    margin-top: 40px;
     display: flex;
+    justify-content: left;
 }
-
-.box ,.btns
+.display_icon
 {
-    
-    height: 45vh;
-    width: 45vh;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: rgb(204, 199, 199);
-   
+    height: 30px;
+    filter: invert(100%);
+    margin-left: 30px;
     
 }
-.profile_pic
+.display_operation
 {
-   
-   
-    height: 43vh;
-    width: 43vh;
-    margin: 10px 10px ;
-    /* margin: 20px; */
-    border-radius: 50%;
-    background-color: rgba(99, 104, 96, 0.863);
-    display: inline-block;
-
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
 }
