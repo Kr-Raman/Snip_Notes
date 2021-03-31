@@ -7,14 +7,11 @@
 /* Properties for the Left side bar */
 .side_bar{
     display: flex;
-    
-   
-
 }
 .side_bar_initials
 {
-    height: 100%;
-    width: 20%;
+   height: 1000px;
+    width: 40vh;
     background-color: rgb(31,31,31);
     color: rgb(255, 255, 255);
     
@@ -22,9 +19,12 @@
 }
 .profile
 {
+    
     display: flex;
-    margin: auto;
+    width: inherit;
     align-content: center;
+    justify-content: space-around;
+    
     
 
 
@@ -36,30 +36,43 @@
     background-color: rgb(175, 238, 117);
     margin: 3px;
     border-radius: 100px;
+    
 
 }
+
 .name
 {
     padding: 5px;
     margin: 3px;
+    /* font-size: 20px; */
+    font-weight: 600;
+   
 }
 .refresh{
 
     height: 15px;
-  align-content:flex-end;
+  /* align-content:flex-end; */
+  
   margin-top: 10px;
-  margin-left: 100px ;
+  /* margin: auto; */
+  
+  /* margin-left: 100px ; */
     
-    /* background-color: rgb(31,31,31); */
+  
     filter: invert(100%);
 }
 .minimize
 {
+    /* position: absolute; */
     height: 15px;
-  align-content:flex-end;
+    margin-top: 10px;
+   
+    /* left: 100px; */
+
+  /* align-content:flex-end;
   margin: auto;
+     */
     
-    /* background-color: white; */
     filter: invert(100%);
 }
 
@@ -72,6 +85,7 @@
 .Quiky
 {
     /* position: absolute; */
+    font-weight:600 ;
     margin:20px 20px   ;
 }
 a
@@ -101,24 +115,52 @@ ul.main_links li img
 .middle_bar
 {
     
-    height: fit-content;
+    height: inherit;
     width: auto;
-    background-color: rgb(40,40,40);
+    background-color: rgb(46, 46, 46);
     color: white;
     
 }
-
+.search
+{
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+}
 .corner{
+    outline: transparent;
     border-radius: 2rem;
     width: 300px;
-    height:30px;  
+    height:30px; 
+   padding-left: 10px;
+    
 }
-
+ .plus{
+     border: none;
+     outline: transparent;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-image: url(/images/plus.png) ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* background-color:rgb(206,100,183) ; */
+    
+    /* background-color: transparent; */   
+} 
+/* .search img
+{
+    height: 25px;
+    width: 25px;
+} */
 
 
 input.corner
 {
     height:30px;
+    margin-left: 28px;
     
 }
 
@@ -140,4 +182,51 @@ input.corner
     margin-left: 10px;
     font-size: 30px;
     font-weight: 600;
+}
+
+hr{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.Note_block
+{
+    margin:20px 40px ;
+    width: fit-content;
+
+}
+.Note_block p{
+    line-height: 30px;
+   max-width: 350px;
+}
+
+.Note_block p.Note_heading
+{
+    font-size: x-large;
+    font-weight: 600;
+}
+.Note_block p.Note_matter
+{
+    color: rgb(135,135,135);
+     
+}
+.mid_icons
+{
+    height: 15px;
+    filter: invert(100%);
+    margin-top: 5px;
+    margin-right:5px ;
+    
+}
+
+.content_display
+{
+    background-color: rgb(50, 50, 50);
+    width: 57%;
+    height: inherit;
+    color: white;
+}
+.con_dis_nav
+{
+    display: flex;
 }
