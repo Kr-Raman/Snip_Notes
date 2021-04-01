@@ -195,9 +195,11 @@ hr{
     width: fit-content;
 
 }
-.Note_block p{
+.Note_block p
+{
+
     line-height: 30px;
-   max-width: 350px;
+    max-width: 350px;
 }
 
 .Note_block p.Note_heading
@@ -216,6 +218,7 @@ hr{
     filter: invert(100%);
     margin-top: 5px;
     margin-right:5px ;
+
     
 }
 
@@ -225,8 +228,46 @@ hr{
     width: 57%;
     height: inherit;
     color: white;
+    display: block;
+    
 }
 .con_dis_nav
 {
     display: flex;
+}
+.Tag
+{
+    height: 50vh;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    
+   
+
+}
+
+.Tag_pic
+{
+    
+    margin-top: 30px;
+    height: 40vh;
+    width: 100vh;
+    border-radius: 2rem;
+    margin: auto;
+}
+.Tag p
+{
+    position: absolute;
+    font-size: 7vh;
+    top: 35vh;
+    left: 100vh;
+}
+.matter
+{
+    /* margin-top: 10vh; */
+    align-content: center;
+    padding: 10vh;
+    font-size: 20px;
+
 }
