@@ -1,7 +1,7 @@
 # Snip_Notes
-A simple Note Making web Portal made using HTML and CSS.(Mostly Done)
-It is a place where you can add your notes.(in progress)
-Notes will get saved and can be viewed in future too.( in Progress)
+A simple Note Making web Portal made using HTML and CSS.(Mostly Done) <br>
+It is a place where you can add your notes.(in progress) <br>
+Notes will get saved and can be viewed in future too.( in Progress) <nr>
 
 PS:- It is not Responsive Yet.
 
